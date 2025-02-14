@@ -12,20 +12,14 @@ The Airbnb experiences clone project is a static website built using the front-e
 
 ## How to Run Locally
 - Install the latest version of node.js (JavaScript runtime server)
+    - Check the version using the command
+        - ```node --version```
 - Install the latest version of npm (JavaScript package manager)
-- Install the latest version of vite which can be done by typing in the command line 'npm install -D vite'
-- The web application can be run on your local server by typing in the command line 'npm run dev'
-
-## How to Deploy
-- To build out the website for deployment use “npm run build”
-- To test out the preview before deploying the website use “npm run preview”
-- Deploy the website on your server of choice:
-  - Netlify using the command line
-    - Install the Netlify CLI using “npm install -g netlify-cli”
-    - Create a new site in Netlify using “ntl init”
-    - Deploy to a unique preview URL using “ntl deploy”
-    - The Netlify CLI will share with you a preview URL to inspect. When you are ready to go into production, use the prod flag to deploy the site into production “ntl deploy --prod”
-  - Netlify using github
-    - Import the project to netlify
-    - Choose the branch, output directory, and set up environment variables if applicable and click deploy
-
+    - Check the version using the command
+        - ```npm --version```
+- Clone the repository from github by typing in the command line
+    - ```git clone <repo-url>```
+- Install any dependencies by using the command
+    - ```npm install```
+- The web application can be run on your local server by typing the command
+    - ```npm run dev```
