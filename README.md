@@ -16,21 +16,16 @@ A static recreation of the Airbnb Experiences page, built with React to practice
 
 ## Overview
 
-This project is a frontend focused recreation built to practice reusable component design in React. It is built with React, JavaScript, HTML, and CSS, and bundled with Vite. A single Card component is reused for every experience on the page, with its content, image, price, and rating all supplied through props rather than repeated in the markup. The experience data itself lives in a separate JavaScript file, so adding, removing, or editing a listing only requires updating that one file rather than the component code. The site is a visual interface model rather than a fully interactive application, meaning the cards display real data but do not currently support booking or filtering.
+This project is a frontend focused recreation built to practice reusable component design in React. It is built with React, JavaScript, HTML, and CSS, and bundled with Vite. Every experience card on the page is generated from a single reusable component and a shared data file, rather than being written out individually. The site is a visual interface model rather than a fully interactive application, meaning the cards display real data but do not currently support booking or filtering.
 
 <br>
 
 ## Features
 
-### Hero Section
-A hero section sits at the top of the page beneath the navigation bar, featuring a header image, the title "Online Experiences," and a short description introducing the kinds of activities available.
+### Hero Section and Experience Cards
+A hero section sits at the top of the page beneath the navigation bar, featuring a header image, the title "Online Experiences," and a short description introducing the kinds of activities available. Below it, every experience is displayed on its own card showing a cover image, star rating, number of reviews, location, title, and price per person, and the full row of cards can be scrolled through horizontally. A badge automatically appears on a card marked "SOLD OUT" when there are no spots left, or "ONLINE" when the experience takes place virtually.
 
 <p align="center"><img src="./images/airbnb.png?raw=true" alt="Airbnb Experiences" width="700"></p>
-
-<br>
-
-### Experience Cards
-Every experience is displayed on its own card showing a cover image, star rating, number of reviews, location, title, and price per person. Cards are generated dynamically from a shared data file, so each one is produced by the same reusable component rather than being written out individually. Cards can be scrolled through horizontally, and a badge automatically appears on a card marked "SOLD OUT" when there are no spots left, or "ONLINE" when the experience takes place virtually.
 
 <br>
 
