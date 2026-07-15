@@ -1,6 +1,6 @@
 # Airbnb Experiences
 
-A web application recreating the Airbnb Experiences page, built with React to practice component design and passing data through props. The interface displays a horizontally scrollable row of experience cards, with every card rendered dynamically from a single shared data file.
+A web application recreating the Airbnb Experiences page. The interface displays a horizontally scrollable row of experience cards, with every card rendered dynamically from a single shared data file.
 
 <br>
 
