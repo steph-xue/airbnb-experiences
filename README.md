@@ -16,7 +16,7 @@ A recreation of the Airbnb Experiences page, built with React to practice compon
 
 ## Overview
 
-This project is a frontend focused recreation built to practice reusable component design in React. It is built with React, JavaScript, HTML, and CSS, and bundled with Vite. Every experience card on the page is generated from a single reusable component and a shared data file, rather than being written out individually. The site is a visual interface model rather than a fully interactive application, meaning the cards display real data but do not currently support booking or filtering.
+This project is a frontend focused recreation built to practice reusable component design in React. It is built with React, JavaScript, HTML, and CSS, and bundled with Vite. Every experience card on the page is generated from a single reusable component and a shared data file, rather than being written out individually. The application is a visual interface model rather than a fully interactive one, meaning the cards display real data but do not currently support booking or filtering.
 
 <br>
 
@@ -40,7 +40,7 @@ A hero section sits at the top of the page beneath the navigation bar, featuring
 
 ## How It Works
 
-The interface is built from three components, a navigation bar, a hero section, and a card, all rendered from a single root component. Rather than writing out each experience by hand, the root component loops through an array of experience objects stored in a separate data file and renders one Card component per entry, passing each item's details in as props. Inside the Card component, conditional logic checks the number of open spots and the location to decide whether to display a "SOLD OUT" or "ONLINE" badge, so the badge logic stays centralized in one place rather than being repeated for every listing. Vite handles the local development server and production build, compiling the React components into static files that can be deployed anywhere.
+The interface is built from three components, a navigation bar, a hero section, and a card, all rendered from a single root component. Rather than writing out each experience by hand, the root component loops through an array of experience objects stored in a separate data file and renders one Card component per entry, passing each item's details in as props. Inside the Card component, conditional logic checks the number of open spots and the location to decide whether to display a "SOLD OUT" or "ONLINE" badge, so the badge logic stays centralized in one place rather than being repeated for every listing. Vite handles the local development server and production build, compiling the React components into files that can be deployed anywhere.
 
 <br>
 
@@ -86,5 +86,5 @@ Once the server is running, open the local URL shown in the terminal to start us
 Several enhancements are planned to extend the functionality of the application:
 - Working search and filtering by location, price, or category
 - A functional booking flow for reserving a spot in an experience
-- Fetching experience data from an API instead of a static local file
+- Fetching experience data from an API instead of a local data file
 - A live hosted demo to allow users to try the application without a local setup
