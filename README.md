@@ -9,8 +9,8 @@ A web application recreating the Airbnb Experiences page. The interface displays
 - [Features](#features)
 - [Tech Stack](#tech-stack)
 - [How It Works](#how-it-works)
-- [Getting Started](#getting-started)
 - [Future Improvements](#future-improvements)
+- [Getting Started](#getting-started)
 
 <br>
 
@@ -42,6 +42,15 @@ A hero section sits at the top of the page beneath the navigation bar, featuring
 ## How It Works
 
 The interface is built from three components, a navigation bar, a hero section, and a card, all rendered from a single root component. Rather than writing out each experience by hand, the root component loops through an array of experience objects stored in a separate data file and renders one Card component per entry, passing each item's details in as props. Inside the Card component, conditional logic checks the number of open spots and the location to decide whether to display a "SOLD OUT" or "ONLINE" badge, so the badge logic stays centralized in one place rather than being repeated for every listing. Vite handles the local development server and production build, compiling the React components into files that can be deployed anywhere.
+
+<br>
+
+## Future Improvements
+Several enhancements are planned to extend the functionality of the application:
+- Working search and filtering by location, price, or category
+- A functional booking flow for reserving a spot in an experience
+- Fetching experience data from an API instead of a local data file
+- A live hosted demo to allow users to try the application without a local setup
 
 <br>
 
@@ -80,12 +89,3 @@ npm run dev
 ```
 
 Once the server is running, open the local URL shown in the terminal to start using the application.
-
-<br>
-
-## Future Improvements
-Several enhancements are planned to extend the functionality of the application:
-- Working search and filtering by location, price, or category
-- A functional booking flow for reserving a spot in an experience
-- Fetching experience data from an API instead of a local data file
-- A live hosted demo to allow users to try the application without a local setup
