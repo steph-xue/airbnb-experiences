@@ -3,7 +3,7 @@
 </h1>
 
 <h4 align="center">
-  A web application recreating the Airbnb Experiences page with scrollable dynamically generated activity cards.
+  A web application recreating the Airbnb Experiences page with dynamically generated activity cards.
 </h4>
 
 <p align="center">
