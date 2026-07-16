@@ -16,7 +16,7 @@ A web application recreating the Airbnb Experiences page. The interface displays
 
 ## Overview
 
-This project is a frontend focused recreation built to practice reusable component design in React. It is built with React, JavaScript, HTML, and CSS, and bundled with Vite. Every experience card on the page is generated from a single reusable component and a shared data file, rather than being written out individually. The application is a visual interface model rather than a fully interactive one, meaning the cards display real data but do not currently support booking or filtering.
+This project is web application built to practice reusable component design in React. It is built with React, JavaScript, HTML, and CSS, and bundled with Vite. Every experience card on the page is generated from a single reusable component and a shared data file, rather than being written out individually. The application is a visual interface model rather than a fully interactive one, meaning the cards display real data but do not currently support booking or filtering.
 
 <br>
 
