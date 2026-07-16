@@ -1,6 +1,14 @@
-# Airbnb Experiences
+<h1 align="center">
+  Airbnb Experiences
+</h1>
 
-A web application recreating the Airbnb Experiences page. The interface displays a horizontally scrollable row of experience cards, with every card rendered dynamically from a single shared data file.
+<h4 align="center">
+  A web application recreating the Airbnb Experiences page with scrollable dynamically generated activity cards.
+</h4>
+
+<p align="center">
+  <img src="./images/airbnb.png?raw=true" alt="Airbnb Experiences" width="500">
+</p>
 
 <br>
 
@@ -16,7 +24,7 @@ A web application recreating the Airbnb Experiences page. The interface displays
 
 ## Overview
 
-This project recreates the Airbnb Experiences page with a hero section and a horizontally scrollable collection of activity listings. It is built with React, JavaScript, HTML, and CSS, and uses Vite as the build tool. The experience cards are dynamically rendered from shared data through reusable components and display details such as ratings, locations, prices, and availability. Conditional badges indicate whether an experience is sold out or available online.
+This project recreates the Airbnb Experiences page, featuring a hero section and a horizontally scrollable collection of activity listings. It is built with React, JavaScript, HTML, and CSS and uses Vite as the build tool. Each experience card is dynamically rendered from a shared data file through reusable components and displays details such as ratings, locations, prices, and availability. Conditional badges indicate whether an experience is sold out or available online.
 
 
 <br>
