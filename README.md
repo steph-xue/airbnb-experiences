@@ -7,7 +7,7 @@
 </h4>
 
 <p align="center">
-  <img src="./images/airbnb.png?raw=true" alt="Airbnb Experiences" width="500">
+  <img src="docs/screenshots/airbnb.png?raw=true" alt="Airbnb Experiences" width="500">
 </p>
 
 <br>
@@ -34,7 +34,7 @@ This project recreates the Airbnb Experiences page, featuring a hero section and
 ### Hero Section and Experience Cards
 A hero section sits at the top of the page beneath the navigation bar, featuring a header image, the title "Online Experiences," and a short description introducing the kinds of activities available. Below it, every experience is displayed on its own card showing a cover image, star rating, number of reviews, location, title, and price per person, and the full row of cards can be scrolled through horizontally. A badge automatically appears on a card marked "SOLD OUT" when there are no spots left, or "ONLINE" when the experience takes place virtually.
 
-<p align="center"><img src="./images/airbnb.png?raw=true" alt="Airbnb Experiences" width="700"></p>
+<p align="center"><img src="docs/screenshots/airbnb.png?raw=true" alt="Airbnb Experiences" width="700"></p>
 
 <br>
 
