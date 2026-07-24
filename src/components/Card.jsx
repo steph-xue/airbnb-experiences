@@ -1,4 +1,4 @@
-import React from "react"
+import PropTypes from "prop-types"
 
 function Card(props) {
     let badgeText;
@@ -31,5 +31,17 @@ function Card(props) {
         </div>
     );
 }
+
+Card.propTypes = {
+    title: PropTypes.string.isRequired,
+    coverImg: PropTypes.string.isRequired,
+    price: PropTypes.number.isRequired,
+    location: PropTypes.string.isRequired,
+    openSpots: PropTypes.number.isRequired,
+    stats: PropTypes.shape({
+        rating: PropTypes.number.isRequired,
+        reviewCount: PropTypes.number.isRequired,
+    }).isRequired,
+};
 
 export default Card;
